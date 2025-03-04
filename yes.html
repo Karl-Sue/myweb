@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Two Videos Vertically</title>
+    <style>
+        .video-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+            padding: fit-content;
+            border-radius: 15px;
+            border-color: black;
+        }
+        video {
+            width: 80%;
+            height: 80%;
+            margin: 50px;
+            padding:0%;
+        }
+        h2{
+            margin-top: 5px 0;
+        }
+    </style>
+</head>
+<body style="background-image: url(20.jpg);">
+    <h1 style="text-align: center;color: pink;">Quá tuyệt vời! Vậy thì xin mời em pé của anh thưởng thức 2 video mới ra lò</h1>
+    <div class="video-container">
+        <h2>Trưởng thành cùng nhau <img src="21.png" alt="love" style="width: 35px;height: 20px; vertical-align: middle;"></h2>
+        <video width="320" height="90" controls style="margin: 10px -50px; border-radius: 15px;">
+            <source src="Grow up.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <br>
+    <div class="video-container">
+        <h2>You and me <img src="love.png" alt="hand in hand" style="width: 35px;height: 35px; vertical-align: middle;"></h2> 
+        <video width="320" height="10" controls style="margin: 10px -50px; border-radius: 15px;">
+            <source src="You and me.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</body>
+</html>
